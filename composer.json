@@ -1,5 +1,5 @@
 {
-    "name": "portphp/steps",
+    "name": "hkvstore/steps",
     "description": "Step aggregator for Port",
     "license": "MIT",
     "homepage": "https://github.com/portphp",
@@ -23,9 +23,9 @@
         "docs": "https://portphp.readthedocs.org"
     },
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.4.0",
         "portphp/portphp": "^1.0.0",
-        "seld/signal-handler": "^1.0",
+        "seld/signal-handler": "^1.0 || ^2.0",
         "symfony/property-access": "^2.3 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
         "symfony/validator": "^2.5 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
     },
