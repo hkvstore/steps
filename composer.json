@@ -49,5 +49,8 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
+    },
+    "replace": {
+        "portphp/steps": "1.4.0"
     }
 }
