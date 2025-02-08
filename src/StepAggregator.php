@@ -63,6 +63,16 @@ class StepAggregator implements Workflow, LoggerAwareInterface
     }
 
     /**
+     * Get reader
+     *
+     * @return Reader
+     */
+    public function getReader()
+    {
+        return $this->reader;
+    }
+
+    /**
      * Add a step to the current workflow
      *
      * @param Step         $step
