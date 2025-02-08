@@ -52,6 +52,6 @@
         }
     },
     "replace": {
-        "portphp/steps": "1.4.0"
+        "portphp/steps": "1.6.0"
     }
 }
